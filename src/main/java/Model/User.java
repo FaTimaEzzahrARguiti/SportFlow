@@ -1,44 +1,44 @@
 package Model;
 
 public class User {
-    private int id;
+    private int idUser;
     private String nom;
-    private String prénom;
+    private String prenom;
     private String tele;
     private String username;
-    private String pssword;
+    private String password;
     private String role;
 
     public User() {
 
     }
 
-    public User(String nom, String prénom, String tele, String username, String pssword, String role) {
+    public User(String nom, String prenom, String tele, String username, String password, String role) {
 
         this.nom = nom;
-        this.prénom = prénom;
+        this.prenom = prenom;
         this.tele = tele;
         this.username = username;
-        this.pssword = pssword;
+        this.password = password;
         this.role = role;
     }
 
-    public User(int id, String nom, String prénom, String tele, String username, String pssword, String role) {
-        this.id = id;
+    public User(int idUser, String nom, String prenom, String tele, String username, String password, String role) {
+        this.idUser = idUser;
         this.nom = nom;
-        this.prénom = prénom;
+        this.prenom = prenom;
         this.tele = tele;
         this.username = username;
-        this.pssword = pssword;
+        this.password = password;
         this.role = role;
     }
 
-    public int getId() {
-        return id;
+    public int getIdUser() {
+        return idUser;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
     }
 
     public String getNom() {
@@ -49,12 +49,12 @@ public class User {
         this.nom = nom;
     }
 
-    public String getPrénom() {
-        return prénom;
+    public String getPrenom() {
+        return prenom;
     }
 
-    public void setPrénom(String prénom) {
-        this.prénom = prénom;
+    public void setPrenom(String prénom) {
+        this.prenom = prenom;
     }
 
     public String getTele() {
@@ -73,12 +73,12 @@ public class User {
         this.username = username;
     }
 
-    public String getPssword() {
-        return pssword;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPssword(String pssword) {
-        this.pssword = pssword;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getRole() {
@@ -92,12 +92,12 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "id=" + idUser +
                 ", nom='" + nom + '\'' +
-                ", prénom='" + prénom + '\'' +
+                ", prénom='" + prenom + '\'' +
                 ", tele='" + tele + '\'' +
                 ", username='" + username + '\'' +
-                ", pssword='" + pssword + '\'' +
+                ", pssword='" + password + '\'' +
                 ", role='" + role + '\'' +
                 '}';
     }
