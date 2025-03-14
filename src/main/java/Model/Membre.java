@@ -14,6 +14,9 @@ public class Membre extends User{
         this.sport_pratique = sport_pratique;
     }
 
+    public Membre(String nom, String prenom, String tele, String role, String username, String password, String date_naissance, String sport_pratique) {
+    }
+
     public int getId() {
         return id;
     }

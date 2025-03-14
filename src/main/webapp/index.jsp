@@ -9,5 +9,11 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+
+
+
+<div class="mb-3">
+    <a href="<%=request.getContextPath()%>/membre/new-form" class="btn btn-success">Ajouter un candidat</a>
+</div>
 </body>
 </html>
