@@ -51,7 +51,17 @@
         </div>
         <div class="form-group">
             <label for="sportPratique">Sport pratiqué</label>
-            <input type="text" class="form-control" id="sportPratique" name="sportPratique" required>
+            <select class="form-control" id="sportPratique" name="sportPratique" required>
+                <option value="">-- Sélectionner un sport --</option>
+                <option value="Football">Football</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Natation">Natation</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Athlétisme">Athlétisme</option>
+                <option value="Volleyball">Volleyball</option>
+                <option value="Boxe">Boxe</option>
+                <option value="Cyclisme">Cyclisme</option>
+            </select>
         </div>
         <div class="text-center">
             <button type="submit" class="btn btn-success">Ajouter</button>
